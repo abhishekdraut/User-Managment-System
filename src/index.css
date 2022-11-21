@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  font-family: 'Circular-Loom';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input,select,textarea{
+  height: 24px;
+  border-radius: 6px;
+  border: 2px solid #818181;
+  font-family: 'Circular-Loom';
+}
+.hover_pointer{
+  cursor: pointer;
+}
+
+/* Login Scrren */
+.loginWrapper{
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  height: 713px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  gap:30px
+}
+.loginHeader{
+  font-family: sans-serif;
+  font-weight:bold;
+  font-size:35px;
+}
+
+
+a{
+  text-decoration:none;
+  color: #6a6868;;
+}
+/* LoginScreen */
+
+.css-1r5wa48-MuiList-root{
+  padding-top:50px;
+}
+.css-1r5wa48-MuiList-root{
+width:90%;
+}
+.css-uls1yk-MuiDivider-root{
+  width:90%
+}
+.userSidebar{
+  display:flex;
+  height:708px;
+  width: 50%;
+  overflow-y: scroll;
+  flex-direction:column;
+  
+  
+}.userDetailsContainer{
+  display:flex;
+
+}
+.addUserbtn{
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:10px;
+  margin-left:30px;
+  padding-bottom: 10px;
+ 
+}
+.logoutbtn{
+  margin-left:auto;
+  margin-right:10%;
+}
+.logoutbtn:hover{
+  cursor:pointer;
+}
+.userSidebar::-webkit-scrollbar{
+  display:none;
+}.header{
+  font-weight:bold;
+  font-size: 20px;
+  
+}
+.sub{
+  display:flex;
+  flex-direction:column;;
+  gap:10px;
+}
+.userDetailsContainers{
+  display:flex;
+  gap: 50px;
+  /* justify-content: space-around; */
+  /* flex-wrap: wrap; */
+  flex-direction:column;
+  width:70%;
+  overflow-y: scroll;
+  height:708px;
+  border-left:1px solid #cacaca;
+  padding-left:10px;
+
+ 
+
+  
+}
+.userDetailsContainers::-webkit-scrollbar{
+display:none;
+}.homeScreenRightSide{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.pd15{
+  padding-left: 15px;
+}.rightSideBtn{
+  display: flex;
+  gap: 3%;
+  justify-content: flex-end;
+  padding-right: 7%;
+  padding-top: 8px;
+}
+.subContainer{
+  display:flex;
+  flex-direction:column;
+  gap: 15px;
+}
+.rightSideDialogBox{
+  display:none;
+  height: 100%;
+  width: 100%;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-color:#bdbdbd
+}
+.dialogboxInner{
+  width:300px;
+  height:150px;
+  background-color:whitesmoke;
+  display: flex;
+  padding:15px;
+  flex-direction: column;
+  gap:30px;
+}
+.dialogHeader{
+  font-weight: bold;
+  font-size: 17px;
+}.dialogBtn{
+  display: flex;
+  justify-content: flex-end;
+  gap:15px;
+  margin-top:auto;
+}
+.rightSideWrapper{
+  display:flex;
+  flex-direction:column;
+  width: 100%;
+}
+.hidden{
+  display:none;
+}.show{
+  display: flex;;
+}
+.subtextContainer{
+  display:flex;
+  max-width: 500px;
+  flex-direction: column;
+  justify-content: space-around;
+  gap:15px;
+}.subtextHeading{
+  color: dimgrey;
+  font-size: 14px;
+  font-weight: bold;
+}.subtextInput{
+  color: darkgrey;
+}
+.skillsContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+  align-items: center;
+  flex-direction: column;
+}
+.skillsubtext{
+  display: flex;
+  gap:35px;
+
+}
+.experiance{
+  color: #6a6868;
+}
+.capsule{
+  background-color:grey;
+  padding:6px 11px;
+  color: white;
+  border-radius:14px;
+}.experiance{
+  display: flex;
+  flex-direction: column;
+  gap: 10px ;
+}.expHeader{
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.exsubtextContainer{
+  display: flex;
+  flex-direction:column;
+  gap:15px;
+  justify-content:space-evenly;
+  border-bottom: 1px solid grey;
+ 
+padding-bottom:26px;  
+}.exsubtextNameHeader{
+  font-size: 14px;
+}.education{
+  display:flex;
+  gap:15px;
+  padding-bottom:50px;
+}
+label{
+  font-size: 13px;
+}
+.eduheader,.eduResponse{
+  font-size: 14px;
+  color: grey;
+  
+}
+.eduheader{
+  font-weight: bold;
+  color: #6a6868;
+}
+.experianceInnerContainer{
+  display:flex;
+  padding-bottom:30px;
+  border-bottom: 1px solid grey;
+  
+}.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    
+    width: 75%;
+}
+.formheader{
+  color: #6a6868;
+  font-weight: bold;
+  font-size: 19px;
+}
+.experianceContainer{
+  display:flex;
+  flex-direction: column;
+  gap:15px;
+}
+.formInput{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+}
+.experianceContainerLeft{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  width:50%;
+}.submitBtn{
+  display: flex;
+    justify-content: flex-end;
+    margin-right: 10%;
+}
+.messageContainerOuter{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
